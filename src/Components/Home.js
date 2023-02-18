@@ -3,14 +3,14 @@ import Loading from './Loading.js'
 import Navbar from './Navbar.js'
 
 const Home = () => {
-  const load = false;
+  const load = true;
   return (
     <>
       {/* Section -1 */}
       <section className="flex relative flex-col justify-center items-center w-screen h-screen bg-cyan-50">
         <div className="flex w-1/2 h-full radius bg-red-200"></div>
         <Navbar />
-      <div className="flex">
+      <div className="flex w-[400px] h-[400px]">
         <img src="6461.jpg" alt="" />
       </div>
         {
